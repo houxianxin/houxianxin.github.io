@@ -159,6 +159,28 @@
 
 
 
+
+<div class="card">
+    <div class="card-content">
+        <h3 class="title is-5 has-text-weight-normal">评论</h3>
+        
+<div id="comment-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.4.1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.4.1/dist/gitalk.min.js"></script>
+<script>
+    var gitalk = new Gitalk({
+        clientID: '01cbaaecb99eeefa3938',
+        clientSecret: 'f3ac2246e4ca9b5f20781af355b286a51f9f0f44',
+        id: 'a7224db13f3a49096aa27c1876d1a947',
+        repo: 'git-comment',
+        owner: 'houxianxin',
+        admin: "houxianxin"
+    })
+    gitalk.render('comment-container')
+</script>
+
+    </div>
+</div>
 </div>
                 
 
