@@ -3,24 +3,25 @@
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta name="baidu-site-verification" content="RBsrm8JyMU">
     <meta charset="utf-8">
-<title>Hello World - 侯宪鑫&#39;BLOG</title>
+<title>锋利的RX：初级篇1——基础概念 - 侯宪鑫&#39;BLOG</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="RX是一整套编程思想，各个语言都有实现，RxJava、RxJS、RxPy、RxCpp…自从入了Rx的坑，就再也爬不出来了，此可谓编程终极大杀器！ 本文从RxJS入手，总结下Rx的相关概念和用法。">
+<meta name="keywords" content="rx,rxjs">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://houxianxin.com/2019/06/16/hello-world/index.html">
+<meta property="og:title" content="锋利的RX：初级篇1——基础概念">
+<meta property="og:url" content="https://houxianxin.com/2019/06/21/锋利的RX：初级篇1——基础概念/index.html">
 <meta property="og:site_name" content="侯宪鑫&#39;BLOG">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="RX是一整套编程思想，各个语言都有实现，RxJava、RxJS、RxPy、RxCpp…自从入了Rx的坑，就再也爬不出来了，此可谓编程终极大杀器！ 本文从RxJS入手，总结下Rx的相关概念和用法。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://houxianxin.com/images/og_image.png">
-<meta property="og:updated_time" content="2019-06-15T16:24:59.401Z">
+<meta property="og:image" content="https://houxianxin.com/images/rx/Rx_Logo_S.png">
+<meta property="og:updated_time" content="2019-06-22T15:59:24.589Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta name="twitter:image" content="http://houxianxin.com/images/og_image.png">
+<meta name="twitter:title" content="锋利的RX：初级篇1——基础概念">
+<meta name="twitter:description" content="RX是一整套编程思想，各个语言都有实现，RxJava、RxJS、RxPy、RxCpp…自从入了Rx的坑，就再也爬不出来了，此可谓编程终极大杀器！ 本文从RxJS入手，总结下Rx的相关概念和用法。">
+<meta name="twitter:image" content="https://houxianxin.com/images/rx/Rx_Logo_S.png">
 
 
 
@@ -122,7 +123,7 @@ var _hmt = _hmt || [];
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/logo.svg" alt="Hello World" height="28">
+                <img src="/images/logo.svg" alt="锋利的RX：初级篇1——基础概念" height="28">
             
             </a>
         </div>
@@ -160,17 +161,27 @@ var _hmt = _hmt || [];
             <div class="columns">
                 <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
     
+    <div class="card-image">
+        <span class="image is-7by1">
+            <img class="thumbnail" src="/images/rx/Rx_Logo_S.png" alt="锋利的RX：初级篇1——基础概念">
+        </span>
+    </div>
+    
     <div class="card-content article ">
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-06-15T16:24:59.401Z">2019-06-16</time>
+                <time class="level-item has-text-grey" datetime="2019-06-21T14:40:59.000Z">2019-06-21</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/RX系列/">RX系列</a>
+                </div>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    1 分钟 读完 (大约 121 个字)
+                    1 分钟 读完 (大约 147 个字)
                 </span>
                 
                 
@@ -184,24 +195,33 @@ var _hmt = _hmt || [];
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                Hello World
+                锋利的RX：初级篇1——基础概念
             
         </h1>
         <div class="content">
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="hljs-string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+            <p>RX是一整套编程思想，各个语言都有实现，RxJava、RxJS、RxPy、RxCpp…自从入了Rx的坑，就再也爬不出来了，此可谓编程终极大杀器！</p>
+<p>本文从RxJS入手，总结下Rx的相关概念和用法。</p>
+<a id="more"></a>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p><em>温馨提示：图片可点击放大阅读</em></p>
+<h3 id="一、入门"><a href="#一、入门" class="headerlink" title="一、入门"></a>一、入门</h3><p><img src="/images/rx/1%E5%85%A5%E9%97%A8.png" alt> </p>
+<h3 id="二、Observable"><a href="#二、Observable" class="headerlink" title="二、Observable"></a>二、Observable</h3><p><img src="/images/rx/2Observable.png" alt></p>
+<h3 id="三、附属类型"><a href="#三、附属类型" class="headerlink" title="三、附属类型"></a>三、附属类型</h3><p><img src="/images/rx/3%E9%99%84%E5%B1%9E%E7%B1%BB%E5%9E%8B.png" alt></p>
+<h3 id="四、操作符"><a href="#四、操作符" class="headerlink" title="四、操作符"></a>四、操作符</h3><p><img src="/images/rx/4Operators.png" alt> </p>
+<h3 id="五、调度器"><a href="#五、调度器" class="headerlink" title="五、调度器"></a>五、调度器</h3><p><img src="/images/rx/5Scheduler.png" alt> </p>
+<blockquote>
+<p>参考：<br><a href="https://cn.rx.js.org/manual/overview.html" target="_blank" rel="noopener">https://cn.rx.js.org/manual/overview.html</a></p>
+</blockquote>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+        </div>
+        
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/tags/rx/">rx</a>, <a class="has-link-grey -link" href="/tags/rxjs/">rxjs</a>
+                </div>
+            </div>
         </div>
         
         
@@ -242,6 +262,20 @@ var _hmt = _hmt || [];
 
 
 
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2019/06/21/hello-world/">
+                <span class="level-item">Hello World</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
 
 
 <div class="card">
@@ -255,7 +289,7 @@ var _hmt = _hmt || [];
     var gitalk = new Gitalk({
         clientID: '01cbaaecb99eeefa3938',
         clientSecret: 'f3ac2246e4ca9b5f20781af355b286a51f9f0f44',
-        id: '40c04a63096f6f9eed1b0dd7615a1222',
+        id: 'a5bf7f69a8f7fb75acdd22e415c4f166',
         repo: 'git-comment',
         owner: 'houxianxin',
         admin: "houxianxin"
@@ -280,7 +314,7 @@ var _hmt = _hmt || [];
             <div class="level-item has-text-centered">
                 <div>
                     
-                        <img class="image is-128x128 has-mb-6" src="/images/avatar.png" alt="侯宪鑫">
+                        <img class="image is-128x128 has-mb-6" src="/images/profile_photo.jpeg" alt="侯宪鑫">
                     
                     
                     <p class="is-size-4 is-block">
@@ -308,7 +342,7 @@ var _hmt = _hmt || [];
                         文章
                     </p>
                     <p class="title has-text-weight-normal">
-                        1
+                        2
                     </p>
                 </div>
             </div>
@@ -318,7 +352,7 @@ var _hmt = _hmt || [];
                         分类
                     </p>
                     <p class="title has-text-weight-normal">
-                        0
+                        1
                     </p>
                 </div>
             </div>
@@ -328,7 +362,7 @@ var _hmt = _hmt || [];
                         标签
                     </p>
                     <p class="title has-text-weight-normal">
-                        0
+                        2
                     </p>
                 </div>
             </div>
@@ -401,13 +435,30 @@ var _hmt = _hmt || [];
                 分类
             </h3>
             <ul class="menu-list">
-            
+            <li>
+        <a class="level is-marginless" href="/categories/RX系列/">
+            <span class="level-start">
+                <span class="level-item">RX系列</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li>
             </ul>
         </div>
     </div>
 </div>
     
         
+<div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            标签云
+        </h3>
+        <a href="/tags/rx/" style="font-size: 10px;">rx</a> <a href="/tags/rxjs/" style="font-size: 10px;">rxjs</a>
+    </div>
+</div>
+
     
     
         <div class="column-right-shadow is-hidden-widescreen ">
@@ -421,7 +472,26 @@ var _hmt = _hmt || [];
         
         <article class="media">
             
-            <a href="/2019/06/16/hello-world/" class="media-left">
+            <a href="/2019/06/21/锋利的RX：初级篇1——基础概念/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/rx/Rx_Logo_S.png" alt="锋利的RX：初级篇1——基础概念">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-06-21T14:40:59.000Z">2019-06-21</time></div>
+                    <a href="/2019/06/21/锋利的RX：初级篇1——基础概念/" class="has-link-black-ter is-size-6">锋利的RX：初级篇1——基础概念</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/RX系列/">RX系列</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/06/21/hello-world/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/images/thumbnail.svg" alt="Hello World">
                 </p>
@@ -429,8 +499,8 @@ var _hmt = _hmt || [];
             
             <div class="media-content">
                 <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-06-15T16:24:59.401Z">2019-06-16</time></div>
-                    <a href="/2019/06/16/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-06-20T23:51:42.361Z">2019-06-21</time></div>
+                    <a href="/2019/06/21/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -456,7 +526,7 @@ var _hmt = _hmt || [];
                     <span class="level-item">六月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">1</span>
+                    <span class="level-item tag">2</span>
                 </span>
             </a>
         </li>
@@ -473,6 +543,20 @@ var _hmt = _hmt || [];
                 标签
             </h3>
             <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/rx/">
+                        <span class="tag">rx</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/rxjs/">
+                        <span class="tag">rxjs</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
                 
             </div>
         </div>
@@ -499,7 +583,26 @@ var _hmt = _hmt || [];
         
         <article class="media">
             
-            <a href="/2019/06/16/hello-world/" class="media-left">
+            <a href="/2019/06/21/锋利的RX：初级篇1——基础概念/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/rx/Rx_Logo_S.png" alt="锋利的RX：初级篇1——基础概念">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-06-21T14:40:59.000Z">2019-06-21</time></div>
+                    <a href="/2019/06/21/锋利的RX：初级篇1——基础概念/" class="has-link-black-ter is-size-6">锋利的RX：初级篇1——基础概念</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/RX系列/">RX系列</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/06/21/hello-world/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/images/thumbnail.svg" alt="Hello World">
                 </p>
@@ -507,8 +610,8 @@ var _hmt = _hmt || [];
             
             <div class="media-content">
                 <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-06-15T16:24:59.401Z">2019-06-16</time></div>
-                    <a href="/2019/06/16/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-06-20T23:51:42.361Z">2019-06-21</time></div>
+                    <a href="/2019/06/21/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -534,7 +637,7 @@ var _hmt = _hmt || [];
                     <span class="level-item">六月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">1</span>
+                    <span class="level-item tag">2</span>
                 </span>
             </a>
         </li>
@@ -551,6 +654,20 @@ var _hmt = _hmt || [];
                 标签
             </h3>
             <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/rx/">
+                        <span class="tag">rx</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/rxjs/">
+                        <span class="tag">rxjs</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
                 
             </div>
         </div>
@@ -569,7 +686,7 @@ var _hmt = _hmt || [];
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/logo.svg" alt="Hello World" height="28">
+                    <img src="/images/logo.svg" alt="锋利的RX：初级篇1——基础概念" height="28">
                 
                 </a>
                 <p class="is-size-7">
