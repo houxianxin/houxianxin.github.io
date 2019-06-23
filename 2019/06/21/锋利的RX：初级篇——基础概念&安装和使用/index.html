@@ -3,24 +3,24 @@
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta name="baidu-site-verification" content="RBsrm8JyMU">
     <meta charset="utf-8">
-<title>锋利的RX：初级篇2——安装 - 侯宪鑫&#39;BLOG</title>
+<title>锋利的RX：初级篇——基础概念&amp;安装和使用 - 侯宪鑫&#39;BLOG</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta name="description" content="参见https://cn.rx.js.org/manual/installation.html">
+    <meta name="description" content="RX是一整套编程思想，各个语言都有实现，RxJava、RxJS、RxPy、RxCpp…自从入了Rx的坑，就再也爬不出来了，此可谓编程终极大杀器！ 本文从RxJS入手，总结下Rx的相关概念和用法。">
 <meta name="keywords" content="rx,rxjs">
 <meta property="og:type" content="article">
-<meta property="og:title" content="锋利的RX：初级篇2——安装">
-<meta property="og:url" content="https://houxianxin.com/2019/06/23/锋利的RX：初级篇2——安装/index.html">
+<meta property="og:title" content="锋利的RX：初级篇——基础概念&amp;安装和使用">
+<meta property="og:url" content="https://houxianxin.com/2019/06/21/锋利的RX：初级篇——基础概念&安装和使用/index.html">
 <meta property="og:site_name" content="侯宪鑫&#39;BLOG">
-<meta property="og:description" content="参见https://cn.rx.js.org/manual/installation.html">
+<meta property="og:description" content="RX是一整套编程思想，各个语言都有实现，RxJava、RxJS、RxPy、RxCpp…自从入了Rx的坑，就再也爬不出来了，此可谓编程终极大杀器！ 本文从RxJS入手，总结下Rx的相关概念和用法。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://houxianxin.com/images/rx/Rx_Logo_S.png">
-<meta property="og:updated_time" content="2019-06-22T16:09:04.706Z">
+<meta property="og:updated_time" content="2019-06-23T08:20:38.103Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="锋利的RX：初级篇2——安装">
-<meta name="twitter:description" content="参见https://cn.rx.js.org/manual/installation.html">
+<meta name="twitter:title" content="锋利的RX：初级篇——基础概念&amp;安装和使用">
+<meta name="twitter:description" content="RX是一整套编程思想，各个语言都有实现，RxJava、RxJS、RxPy、RxCpp…自从入了Rx的坑，就再也爬不出来了，此可谓编程终极大杀器！ 本文从RxJS入手，总结下Rx的相关概念和用法。">
 <meta name="twitter:image" content="https://houxianxin.com/images/rx/Rx_Logo_S.png">
 
 
@@ -123,7 +123,7 @@ var _hmt = _hmt || [];
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/logo.svg" alt="锋利的RX：初级篇2——安装" height="28">
+                <img src="/images/logo.svg" alt="锋利的RX：初级篇——基础概念&amp;安装和使用" height="28">
             
             </a>
         </div>
@@ -163,7 +163,7 @@ var _hmt = _hmt || [];
     
     <div class="card-image">
         <span class="image is-7by1">
-            <img class="thumbnail" src="/images/rx/Rx_Logo_S.png" alt="锋利的RX：初级篇2——安装">
+            <img class="thumbnail" src="/images/rx/Rx_Logo_S.png" alt="锋利的RX：初级篇——基础概念&amp;安装和使用">
         </span>
     </div>
     
@@ -171,7 +171,7 @@ var _hmt = _hmt || [];
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-06-22T16:05:59.000Z">2019-06-23</time>
+                <time class="level-item has-text-grey" datetime="2019-06-21T14:40:59.000Z">2019-06-21</time>
                 
                 <div class="level-item">
                 <a class="has-link-grey -link" href="/categories/RX系列/">RX系列</a>
@@ -181,7 +181,7 @@ var _hmt = _hmt || [];
                 <span class="level-item has-text-grey">
                     
                     
-                    几秒 读完 (大约 11 个字)
+                    1 分钟 读完 (大约 181 个字)
                 </span>
                 
                 
@@ -195,14 +195,24 @@ var _hmt = _hmt || [];
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                锋利的RX：初级篇2——安装
+                锋利的RX：初级篇——基础概念&amp;安装和使用
             
         </h1>
         <div class="content">
-            <a id="more"></a>
+            <p>RX是一整套编程思想，各个语言都有实现，RxJava、RxJS、RxPy、RxCpp…自从入了Rx的坑，就再也爬不出来了，此可谓编程终极大杀器！</p>
+<p>本文从RxJS入手，总结下Rx的相关概念和用法。</p>
+<a id="more"></a>
 
+<p><em>温馨提示：图片可点击放大阅读</em></p>
+<h3 id="一、入门"><a href="#一、入门" class="headerlink" title="一、入门"></a>一、入门</h3><p><img src="/images/rx/1%E5%85%A5%E9%97%A8.png" alt> </p>
+<h3 id="二、Observable"><a href="#二、Observable" class="headerlink" title="二、Observable"></a>二、Observable</h3><p><img src="/images/rx/2Observable.png" alt></p>
+<h3 id="三、附属类型"><a href="#三、附属类型" class="headerlink" title="三、附属类型"></a>三、附属类型</h3><p><img src="/images/rx/3%E9%99%84%E5%B1%9E%E7%B1%BB%E5%9E%8B.png" alt></p>
+<h3 id="四、操作符"><a href="#四、操作符" class="headerlink" title="四、操作符"></a>四、操作符</h3><p><img src="/images/rx/4Operators.png" alt> </p>
+<h3 id="五、调度器"><a href="#五、调度器" class="headerlink" title="五、调度器"></a>五、调度器</h3><p><img src="/images/rx/5Scheduler.png" alt> </p>
+<h3 id="六、安装"><a href="#六、安装" class="headerlink" title="六、安装"></a>六、安装</h3><p><img src="/images/rx/6%E5%AE%89%E8%A3%85.png" alt> </p>
+<h3 id="七、使用"><a href="#七、使用" class="headerlink" title="七、使用"></a>七、使用</h3><p><img src="/images/rx/7%E4%BD%BF%E7%94%A8.png" alt> </p>
 <blockquote>
-<p>参见<br><a href="https://cn.rx.js.org/manual/installation.html" target="_blank" rel="noopener">https://cn.rx.js.org/manual/installation.html</a></p>
+<p>参考：<br><a href="https://cn.rx.js.org/manual/overview.html" target="_blank" rel="noopener">https://cn.rx.js.org/manual/overview.html</a><br><a href="https://cn.rx.js.org/manual/installation.html" target="_blank" rel="noopener">https://cn.rx.js.org/manual/installation.html</a><br><a href="https://cn.rx.js.org/manual/tutorial.html" target="_blank" rel="noopener">https://cn.rx.js.org/manual/tutorial.html</a></p>
 </blockquote>
 
         </div>
@@ -259,8 +269,8 @@ var _hmt = _hmt || [];
         
         
         <div class="level-end">
-            <a class="level level-item has-link-grey  article-nav-next" href="/2019/06/21/锋利的RX：初级篇1——基础概念/">
-                <span class="level-item">锋利的RX：初级篇1——基础概念</span>
+            <a class="level level-item has-link-grey  article-nav-next" href="/2019/06/21/hello-world/">
+                <span class="level-item">Hello World</span>
                 <i class="level-item fas fa-chevron-right"></i>
             </a>
         </div>
@@ -281,7 +291,7 @@ var _hmt = _hmt || [];
     var gitalk = new Gitalk({
         clientID: '01cbaaecb99eeefa3938',
         clientSecret: 'f3ac2246e4ca9b5f20781af355b286a51f9f0f44',
-        id: '7e5e585de317157ab0e626ccc3870ff5',
+        id: 'ef92fa83e87a4623d1d42dd75adc0c42',
         repo: 'git-comment',
         owner: 'houxianxin',
         admin: "houxianxin"
@@ -334,7 +344,7 @@ var _hmt = _hmt || [];
                         文章
                     </p>
                     <p class="title has-text-weight-normal">
-                        3
+                        2
                     </p>
                 </div>
             </div>
@@ -433,7 +443,7 @@ var _hmt = _hmt || [];
                 <span class="level-item">RX系列</span>
             </span>
             <span class="level-end">
-                <span class="level-item tag">2</span>
+                <span class="level-item tag">1</span>
             </span>
         </a></li>
             </ul>
@@ -464,35 +474,16 @@ var _hmt = _hmt || [];
         
         <article class="media">
             
-            <a href="/2019/06/23/锋利的RX：初级篇2——安装/" class="media-left">
+            <a href="/2019/06/21/锋利的RX：初级篇——基础概念&安装和使用/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/rx/Rx_Logo_S.png" alt="锋利的RX：初级篇2——安装">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-06-22T16:05:59.000Z">2019-06-23</time></div>
-                    <a href="/2019/06/23/锋利的RX：初级篇2——安装/" class="has-link-black-ter is-size-6">锋利的RX：初级篇2——安装</a>
-                    <p class="is-size-7 is-uppercase">
-                        <a class="has-link-grey -link" href="/categories/RX系列/">RX系列</a>
-                    </p>
-                </div>
-            </div>
-        </article>
-        
-        <article class="media">
-            
-            <a href="/2019/06/21/锋利的RX：初级篇1——基础概念/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/rx/Rx_Logo_S.png" alt="锋利的RX：初级篇1——基础概念">
+                    <img class="thumbnail" src="/images/rx/Rx_Logo_S.png" alt="锋利的RX：初级篇——基础概念&amp;安装和使用">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-06-21T14:40:59.000Z">2019-06-21</time></div>
-                    <a href="/2019/06/21/锋利的RX：初级篇1——基础概念/" class="has-link-black-ter is-size-6">锋利的RX：初级篇1——基础概念</a>
+                    <a href="/2019/06/21/锋利的RX：初级篇——基础概念&安装和使用/" class="has-link-black-ter is-size-6">锋利的RX：初级篇——基础概念&amp;安装和使用</a>
                     <p class="is-size-7 is-uppercase">
                         <a class="has-link-grey -link" href="/categories/RX系列/">RX系列</a>
                     </p>
@@ -537,7 +528,7 @@ var _hmt = _hmt || [];
                     <span class="level-item">六月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">3</span>
+                    <span class="level-item tag">2</span>
                 </span>
             </a>
         </li>
@@ -558,14 +549,14 @@ var _hmt = _hmt || [];
                 <div class="control">
                     <a class="tags has-addons" href="/tags/rx/">
                         <span class="tag">rx</span>
-                        <span class="tag is-grey">2</span>
+                        <span class="tag is-grey">1</span>
                     </a>
                 </div>
                 
                 <div class="control">
                     <a class="tags has-addons" href="/tags/rxjs/">
                         <span class="tag">rxjs</span>
-                        <span class="tag is-grey">2</span>
+                        <span class="tag is-grey">1</span>
                     </a>
                 </div>
                 
@@ -594,35 +585,16 @@ var _hmt = _hmt || [];
         
         <article class="media">
             
-            <a href="/2019/06/23/锋利的RX：初级篇2——安装/" class="media-left">
+            <a href="/2019/06/21/锋利的RX：初级篇——基础概念&安装和使用/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/rx/Rx_Logo_S.png" alt="锋利的RX：初级篇2——安装">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-06-22T16:05:59.000Z">2019-06-23</time></div>
-                    <a href="/2019/06/23/锋利的RX：初级篇2——安装/" class="has-link-black-ter is-size-6">锋利的RX：初级篇2——安装</a>
-                    <p class="is-size-7 is-uppercase">
-                        <a class="has-link-grey -link" href="/categories/RX系列/">RX系列</a>
-                    </p>
-                </div>
-            </div>
-        </article>
-        
-        <article class="media">
-            
-            <a href="/2019/06/21/锋利的RX：初级篇1——基础概念/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/rx/Rx_Logo_S.png" alt="锋利的RX：初级篇1——基础概念">
+                    <img class="thumbnail" src="/images/rx/Rx_Logo_S.png" alt="锋利的RX：初级篇——基础概念&amp;安装和使用">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-06-21T14:40:59.000Z">2019-06-21</time></div>
-                    <a href="/2019/06/21/锋利的RX：初级篇1——基础概念/" class="has-link-black-ter is-size-6">锋利的RX：初级篇1——基础概念</a>
+                    <a href="/2019/06/21/锋利的RX：初级篇——基础概念&安装和使用/" class="has-link-black-ter is-size-6">锋利的RX：初级篇——基础概念&amp;安装和使用</a>
                     <p class="is-size-7 is-uppercase">
                         <a class="has-link-grey -link" href="/categories/RX系列/">RX系列</a>
                     </p>
@@ -667,7 +639,7 @@ var _hmt = _hmt || [];
                     <span class="level-item">六月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">3</span>
+                    <span class="level-item tag">2</span>
                 </span>
             </a>
         </li>
@@ -688,14 +660,14 @@ var _hmt = _hmt || [];
                 <div class="control">
                     <a class="tags has-addons" href="/tags/rx/">
                         <span class="tag">rx</span>
-                        <span class="tag is-grey">2</span>
+                        <span class="tag is-grey">1</span>
                     </a>
                 </div>
                 
                 <div class="control">
                     <a class="tags has-addons" href="/tags/rxjs/">
                         <span class="tag">rxjs</span>
-                        <span class="tag is-grey">2</span>
+                        <span class="tag is-grey">1</span>
                     </a>
                 </div>
                 
@@ -716,7 +688,7 @@ var _hmt = _hmt || [];
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/logo.svg" alt="锋利的RX：初级篇2——安装" height="28">
+                    <img src="/images/logo.svg" alt="锋利的RX：初级篇——基础概念&amp;安装和使用" height="28">
                 
                 </a>
                 <p class="is-size-7">
